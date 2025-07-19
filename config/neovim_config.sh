@@ -5,6 +5,8 @@ set -e
 # Update package list and install git
 apt-get install -y git
 apt-get install -y build-essential
+apt-get install -y ripgrep
+apt-get install -y xclip
 
 # Target directory
 TARGET_DIR="$HOME/.config/nvim"
